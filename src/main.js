@@ -11,12 +11,13 @@ Vue.use(VueAxios, axios);
 Vue.use(VueRouter);
 
 const routes = [
+    { path: '/', component: HomePage, name: 'home', title: 'home' },
     { path: '/game/:gameId', component: Game, name: 'game' },
-    { path: '/', component: HomePage, name: 'home', title: 'home' }
 ]
 
 const router = new VueRouter({
     routes,
+    base: process.env.BASE_URL,
     mode: 'history',
 })
 
