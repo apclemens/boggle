@@ -90,8 +90,8 @@ function pathIsValid(boardSize, path) {
 }
 var backend;
 
-backend = 'https://flask-boggle.herokuapp.com/';
 backend = 'http://localhost:5000/';
+backend = 'https://flask-boggle.herokuapp.com/';
 
 import Grid from './components/Grid.vue'
 import ScoreBoard from './components/ScoreBoard.vue'

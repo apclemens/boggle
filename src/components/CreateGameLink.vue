@@ -46,8 +46,8 @@
 <script>
 var backend;
 
-backend = 'https://flask-boggle.herokuapp.com/';
 backend = 'http://localhost:5000/';
+backend = 'https://flask-boggle.herokuapp.com/';
 
 export default {
   name: 'creategamelink',
