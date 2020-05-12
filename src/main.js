@@ -11,8 +11,8 @@ Vue.use(VueAxios, axios);
 Vue.use(VueRouter);
 
 const routes = [
-    { path: '/', component: HomePage, name: 'home', title: 'home' },
-    { path: '/game/:gameId', component: Game, name: 'game' },
+    { path: '/boggle/', component: HomePage, name: 'home', title: 'home' },
+    { path: '/boggle/game/:gameId', component: Game, name: 'game' },
 ]
 
 const router = new VueRouter({
