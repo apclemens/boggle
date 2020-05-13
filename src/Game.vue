@@ -254,7 +254,7 @@ export default {
                               this.waitForStart(Math.random());
                           }, globalWordIndex*2000);
                       })
-                  }, (gameLength+3) * 1000)
+                  }, (gameLength+6) * 1000)
               }, distanceA)
           });
       },
